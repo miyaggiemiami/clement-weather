@@ -1,0 +1,54 @@
+
+
+/* General reset and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles for the body to handle the background image */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  backdrop-filter: blur(40px);
+}
+
+/* Mainpage styles */
+.mainpage {
+  min-height: 100vh;
+}
+
+/* Search component styles */
+.searchComp {
+  display: flex;
+  backdrop-filter: blur(10px);
+  justify-content: center;
+  align-items: flex-end;
+  height: 15vh;
+  width: 100%;
+}
+
+/* VD component styles */
+.vd {
+  width: 40rem;
+  height: 80rem;
+  background-size: cover;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 1069px) {
+  .mainpage {
+    height: auto !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mainpage {
+    height: auto !important;
+  }
+}
